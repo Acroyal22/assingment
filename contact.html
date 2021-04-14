@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h2>contact</h2>
-</body>
+  </head>
+  <body>
+    <forms id="forms">
+      <label id="users" >UserName
+        <input type="text" placeholder="UserName" class="user"  name="users"/>
+      </label>
+    </br>
+      <label id="Date">Date
+        <input type="date" placeholder="Date" class="user"  name="Date" />
+      </label>
+    </br>
+      <label id="password">Password
+        <input type="password" placeholder="Password" class="user"  name="Password" />
+      </label>
+    </br>
+    <input type="submit" onclick="submit();" value="Button" />
+    </form>
+    <script src="script.js"></script>
+  </body>
 </html>
